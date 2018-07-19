@@ -15,7 +15,7 @@ of new, as of yet unknown types of covenants, beyond just maximum default likeli
 and state restrictions?  **I would assume it's an additional rules that you can include in a function**  
 3. How would you architect your solution as a production service wherein new facilities can
 be introduced at arbitrary points in time. Assume these facilities become available by the
-finance team emailing your team and describing the addition with a new set of CSVs.  
+finance team emailing your team and describing the addition with a new set of CSVs.  **Don't know the answer and would have to reach out to Sr. Devs**  
 4. Your solution most likely simulates the streaming process by directly calling a method in
 your code to process the loans inside of a for loop. What would a REST API look like for
 this same service? Stakeholders using the API will need, at a minimum, to be able to
